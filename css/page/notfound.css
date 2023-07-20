@@ -1,0 +1,39 @@
+.notfound {
+  position: relative;
+  text-align: center;
+  padding-block: 40px;
+}
+
+.notfound article {
+  margin-top: -40px;
+}
+
+.notfound h1 {
+  font: var(--fs-32);
+  color: var(--color-primary-light);
+  font-size: 8rem;
+  font-weight: 700;
+}
+
+.notfound p {
+  font: var(--fs-16);
+  font-weight: 700;
+  color: var(--color-primary-light);
+  padding-block: 32px;
+}
+
+@media (min-width: 768px) {
+  .notfound h1 {
+    color: var(--color-primary-light);
+    font-size: 30rem;
+    font-weight: 700;
+    position: relative;
+    top: -100px;
+    z-index: -1;
+  }
+
+  .notfound article {
+    z-index: 2;
+    margin-top: -300px;
+  }
+}

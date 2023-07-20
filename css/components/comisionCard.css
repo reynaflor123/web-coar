@@ -1,0 +1,36 @@
+.comisionCard {
+  border-radius: 16px;
+  overflow: hidden;
+  background: white;
+}
+
+.comisionCard__image {
+  width: 100%;
+}
+
+.comisionCard__name {
+  text-align: center;
+  padding-top: 16px;
+  color: var(--color-primary);
+  font: var(--fs-18);
+  font-weight: 700;
+}
+
+.comisionCard__details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 16px;
+}
+
+.comisionCard__details-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: var(--color-primary-light);
+  font: var(--fs-16);
+}
+
+.comisionCard__details-item i {
+  color: var(--color-secondary);
+}

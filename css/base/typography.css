@@ -1,0 +1,13 @@
+:root {
+  --family: "Open Sans", sans-serif;
+  --size-48: 3rem;
+  --size-32: 2rem;
+  --size-18: 1.125rem;
+  --size-16: 1rem;
+  --size-14: 0.875rem;
+  --fs-48: var(--size-48) var(--family);
+  --fs-32: var(--size-32) var(--family);
+  --fs-18: var(--size-18) var(--family);
+  --fs-16: var(--size-16) var(--family);
+  --fs-14: var(--size-14) var(--family);
+}

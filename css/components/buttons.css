@@ -1,0 +1,18 @@
+.button {
+  font: var(--fs-18);
+  font-weight: 400;
+  padding-block: 8px;
+  padding-inline: 24px;
+  border-radius: 12px;
+  display: inline-block;
+}
+.button.button-primary {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.button.button-outline {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}

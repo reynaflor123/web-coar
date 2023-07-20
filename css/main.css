@@ -1,0 +1,22 @@
+/* reset */
+@import "./base/reset.css";
+/* colors */
+@import "./base/color.css";
+/* typography */
+@import "./base/typography.css";
+/* utilities */
+@import "./utilities/container.css";
+/* components */
+@import "./components/header.css";
+@import "./components/buttons.css";
+@import "./components/newCard.css";
+@import "./components/footer.css";
+@import "./components/hero.css";
+@import "./components/asignaturaCard.css";
+@import "./components/comisionCard.css";
+/* pages */
+@import "./page/home.css";
+@import "./page/ib.css";
+@import "./page/providad-academica.css";
+@import "./page/recursos.css";
+@import "./page/notfound.css";

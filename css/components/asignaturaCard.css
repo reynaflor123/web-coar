@@ -1,0 +1,21 @@
+.asignaturaCard {
+}
+
+.asignaturaCard__image {
+  border-radius: 16px;
+}
+
+.asignaturaCard__group {
+  font: var(--fs-16);
+  color: var(--color-primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-block: 4px;
+}
+
+.asignaturaCard__name {
+  font: var(--fs-16);
+  color: var(--color-primary);
+  font-weight: 400;
+  padding-block: 4px;
+}

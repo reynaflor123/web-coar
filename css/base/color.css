@@ -1,0 +1,9 @@
+:root {
+  --color-primary: hsl(210, 56%, 35%);
+  --color-primary-light: hsla(210, 30%, 61%, 1);
+  --color-primary-dark: hsla(210, 56%, 21%, 1);
+
+  --color-secondary: hsl(43, 100%, 66%);
+  --color-secondary-light: hsla(43, 100%, 80%, 1);
+  --color-secondary-dark: hsla(43, 57%, 53%, 1);
+}

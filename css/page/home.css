@@ -1,0 +1,279 @@
+.home .section-hero {
+  background-image: url("../../image/banner-home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+
+.home .section-hero::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+  background: linear-gradient(
+    90.08deg,
+    rgba(24, 54, 84, 0.8) 19.44%,
+    rgba(24, 54, 84, 0) 79.25%
+  );
+}
+
+.section-hero__content {
+  display: flex;
+  align-items: center;
+  height: 375px;
+}
+
+.home .section-hero__title {
+  font: var(--fs-32);
+  font-weight: 700;
+  color: white;
+  z-index: 2;
+}
+
+/* section-phrase */
+.section-phrase {
+  background-color: var(--color-primary);
+  padding-block: 52px;
+  text-align: center;
+}
+
+.section-phrase__text {
+  color: white;
+  font: var(--fs-16);
+  font-weight: 600;
+  max-width: 767px;
+  margin: auto;
+  list-style: 1.5;
+}
+
+/* section-why-is-coar */
+
+.section-why-is-coar {
+  text-align: center;
+  padding-block: 30px;
+}
+
+.section-why-is-coar__title {
+  font: var(--fs-16);
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+.section-why-is-coar__description {
+  font: var(--fs-16);
+  font-weight: 400;
+  color: var(--color-primary);
+}
+
+.section-why-is-coar__content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* section-who-us*/
+
+.section-who-us {
+  text-align: center;
+  padding-block: 30px;
+}
+
+.section-who-us__title {
+  font: var(--fs-16);
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+.section-who-us__description {
+  font: var(--fs-16);
+  font-weight: 400;
+  color: var(--color-primary);
+}
+
+.section-who-us__content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* section-inform*/
+.home .section-inform {
+  padding-block: 32px;
+  background-image: url("../../image/informate.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+
+.home .section-inform::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+  background: linear-gradient(
+    72deg,
+    #f9cd5d 50.03%,
+    rgba(24, 54, 84, 0) 82.83%
+  );
+}
+
+.home .section-inform__content {
+  z-index: 2;
+  position: relative;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.home .section-inform__title {
+  font: var(--fs-18);
+  font-weight: 700;
+  color: var(--color-primary);
+  text-align: center;
+}
+
+.home .section-inform__img {
+  display: block;
+}
+
+/* section-news*/
+.home .section-news {
+  padding-block: 60px;
+  text-align: center;
+}
+
+.home .section-news__title {
+  font: var(--fs-16);
+  font-weight: 700;
+  color: var(--color-primary);
+  text-align: center;
+  border-bottom: 5px solid var(--color-secondary);
+  padding-bottom: 10px;
+  display: inline-block;
+  margin-bottom: 32px;
+}
+
+.home .section-news__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 52px;
+  place-items: center;
+}
+
+.home .section-news .button-outline {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+@media (min-width: 992px) {
+  .home .section-hero__title {
+    font: var(--fs-48);
+    font-weight: 700;
+    max-width: 700px;
+  }
+
+  /* why is the coar */
+  .section-why-is-coar {
+    padding-block: 88px;
+  }
+  .home .section-why-is-coar__title {
+    font: var(--fs-48);
+    font-weight: 700;
+  }
+
+  .home .section-why-is-coar__description {
+    font: var(--fs-18);
+    line-height: 1.5;
+  }
+
+  .home .section-why-is-coar__content {
+    flex-direction: row;
+  }
+  .home .section-why-is-coar__content > * {
+    flex: 1;
+  }
+
+  .home .section-why-is-coar__content article {
+    text-align: left;
+  }
+  .home .section-why-is-coar__title {
+    margin-bottom: 27px;
+  }
+
+  /* section-phrase */
+  .section-phrase {
+    padding-block: 42px;
+  }
+
+  .section-phrase__text {
+    font: var(--fs-18);
+    font-weight: 600;
+  }
+
+  /* section who us */
+  .home .section-who-us {
+    padding-block: 100px;
+  }
+
+  .home .section-who-us__content {
+    flex-direction: row;
+  }
+
+  .home .section-who-us__content > * {
+    flex: 1;
+  }
+
+  .home .section-who-us__content article {
+    order: 3;
+  }
+
+  .home .section-who-us__title {
+    font: var(--fs-48);
+    font-weight: 700;
+    text-align: right;
+  }
+
+  .section-who-us__description {
+    font: var(--fs-18);
+    text-align: right;
+    order: 1;
+    line-height: 1.5;
+  }
+
+  /* section-inform*/
+  .home .section-inform {
+    padding-block: 32px;
+  }
+
+  .home .section-inform__content {
+    max-width: 478px;
+  }
+
+  .home .section-inform__title {
+    font: var(--fs-48);
+    font-weight: 800;
+  }
+
+  .home .section-inform__img {
+    display: block;
+    height: 239px;
+  }
+
+  /* section-news*/
+  .home .section-news {
+    padding-block: 100px;
+  }
+
+  .home .section-news__title {
+    font: var(--fs-48);
+    font-weight: 800;
+    margin-bottom: 81px;
+  }
+
+  .home .section-news .button-outline {
+    margin-block: 81px;
+  }
+}

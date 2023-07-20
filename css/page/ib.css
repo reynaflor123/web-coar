@@ -1,0 +1,292 @@
+/* section asignaturas */
+.page-ib .section-asignaturas {
+  padding-block: 32px;
+}
+
+.page-ib .section-asignaturas__title {
+  font: var(--fs-18);
+  color: var(--color-primary);
+  font-weight: 700;
+  padding-bottom: 24px;
+  text-align: center;
+}
+.page-ib .list-asignaturas {
+  display: none;
+}
+
+.page-ib .swiper .swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.page-ib .swiper .swiper-button-prev,
+.page-ib .swiper .swiper-button-next {
+  background: rgba(0, 0, 0, 0.501);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: white;
+}
+
+.page-ib .swiper .swiper-button-prev::after,
+.page-ib .swiper .swiper-button-next::after {
+  font-size: 20px !important;
+}
+
+/* section trabajos ib */
+
+.section-trabajos-ib {
+  padding-block: 32px;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 35%,
+    rgba(255, 226, 151, 1) 36%
+  );
+}
+
+.section-trabajos-ib__title {
+  font: var(--fs-18);
+  color: var(--color-primary);
+  font-weight: 700;
+  text-align: center;
+  padding-block: 24px;
+}
+
+.section-trabajos-ib__description {
+  font: var(--fs-16);
+  color: var(--color-primary-dark);
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+/* section trabajos ib */
+.list-trabajoCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.trabajoCard {
+  text-align: center;
+  max-width: 400px;
+}
+
+.trabajoCard__content {
+  border: 1px solid #dae4f2;
+  padding: 28px 32px;
+  border-radius: 16px;
+  margin-bottom: 32px;
+  background: white;
+}
+
+.trabajoCard__title {
+  font: var(--fs-18);
+  color: var(--color-primary-dark);
+  font-weight: 700;
+  padding-bottom: 12px;
+}
+.trabajoCard__description {
+  font: var(--fs-16);
+  color: var(--color-primary);
+  font-weight: 400;
+  padding-bottom: 122px;
+}
+
+@media (min-width: 768px) {
+  .page-ib .section-asignaturas__title {
+    font: var(--fs-48);
+    font-weight: 700;
+    padding-bottom: 64px;
+  }
+}
+
+/* section-convocatoria */
+
+.section-convocatoria-ib {
+  padding-block: 34px;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 80%,
+    rgba(255, 226, 151, 1) 80%
+  );
+}
+
+.section-convocatoria-ib__title {
+  font: var(--fs-18);
+  color: var(--color-primary);
+  font-weight: 800;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.list-convocatoria {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.convocatoriaCard {
+  border: 1px solid #dae4f2;
+  border-radius: 16px;
+  padding-block: 14px;
+  padding-inline: 32px;
+  background: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.convocatoriaCard__icon {
+  font-size: 24px;
+  color: var(--color-primary);
+}
+
+.convocatoriaCard__title {
+  font: var(--fs-18);
+  color: var(--color-primary);
+  font-weight: 800;
+}
+
+.convocatoriaCard__description {
+  font: var(--fs-16);
+  color: var(--color-primary-light);
+  padding-bottom: 120px;
+}
+
+.convocatoriaCard__link {
+  font: var(--fs-16);
+  color: var(--color-primary-light);
+}
+
+.convocatoriaCard__link i {
+  color: var(--color-primary);
+}
+
+/* section-reporte-trabajo */
+.section-reporte-trabajo {
+  background: var(--color-secondary-light);
+  padding-block: 32px;
+}
+
+.section-reporte-trabajo__content {
+}
+
+.section-reporte-trabajo__content h2 {
+  font: var(--fs-18);
+  color: var(--color-primary);
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.section-reporte-trabajo__content p {
+  font: var(--fs-16);
+  color: var(--color-primary-light);
+  font-weight: 400;
+  color: var(--color-primary);
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.section-reporte-trabajo .button-desktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .section-trabajos-ib {
+    padding-block: 32px;
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 1) 35%,
+      rgba(255, 226, 151, 1) 36%
+    );
+  }
+
+  .section-trabajos-ib__title {
+    font: var(--fs-48);
+    font-weight: 800;
+    padding-block: 28px;
+  }
+
+  .section-trabajos-ib__description {
+    font: var(--fs-18);
+    padding-bottom: 64px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .list-trabajoCard {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .convocatoriaCard__icon {
+    font-size: 36px;
+  }
+
+  .section-convocatoria-ib__title {
+    font: var(--fs-48);
+    font-weight: 800;
+    padding-block: 64px;
+  }
+
+  .trabajoCard__content {
+    padding-inline: 55px;
+    padding-block: 38px;
+  }
+}
+
+@media (min-width: 992px) {
+  .page-ib .swiper {
+    display: none;
+  }
+  .page-ib .list-asignaturas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 273px));
+    place-content: center;
+    gap: 64px;
+  }
+  .list-convocatoria {
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .section-convocatoria-ib {
+    padding-block: 64px;
+    padding-bottom: 120px;
+    background: none;
+  }
+
+  .section-reporte-trabajo__content {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .section-reporte-trabajo .button-desktop {
+    display: inline-block;
+  }
+
+  .section-reporte-trabajo .button-mobile {
+    display: none;
+  }
+
+  .section-reporte-trabajo h2 {
+    font: var(--fs-48);
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .section-reporte-trabajo p {
+    font: var(--fs-16);
+    text-align: left;
+  }
+
+  .section-reporte-trabajo__content article {
+    max-width: 480px;
+  }
+  .section-reporte-trabajo {
+    padding-block: 150px;
+  }
+}
