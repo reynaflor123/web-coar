@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>inicio</title>
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- icons boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- my styles -->
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <nav id="menu-navigation" class="navigation">
+          <img class="logo" src="./image/logo.png" width="150" height="50" alt="logo del COAR" title="logo del COAR">
+          <ul  class="menu">
+            <li><a class="menu__link" href="./inicio.html">Inicio</a></l>
+            <li><a class="menu__link" href="./ib.html">IB</a></li>
+            <li><a class="menu__link" href="./probidadacademica.html">Probidad académica</a></li>
+            <li><a class="menu__link" href="./Recursos.html">Recursos</a></li>
+          </ul>
+          <button id="button-navigation-open" class="menu-button">
+            <span class="menu-button__stick"></span>
+            <span class="menu-button__stick"></span>
+            <span class="menu-button__stick"></span>
+          </button>
+          <button id="button-navigation-close" class="menu-button">
+            <span class="menu-button__stick"></span>
+            <span class="menu-button__stick"></span>
+            <span class="menu-button__stick"></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <!-- header -->   
+    <main class="notfound">
+        <h1>404</h1>
+        <article>
+            <img src="./image/404.png" alt="">
+            <p>Página no encontrada</p>
+            <a href="#" class="button button-outline">Vamos al Home</a>
+        </article>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+       <div class="container">
+         <div class="footer__content">
+          <section class="footer__logo">
+            <img src="https://picsum.photos/id/684/79/79" alt=" Logo del coar" title="Logo del coar">
+            <img src="https://picsum.photos/id/684/154/49" alt="segundo Logo del coar" title="segundo Logo del coar">  
+          </section>
+          <section class="footer__links">
+            <h3>Links</h3>
+            <nav>
+              <ul>
+                <li class="link 1">
+                  <a href="#">Inicio</a>
+                </li>
+              <li class="link 2">
+                <a href="#">IB</a>
+              </li>
+              <li class="link 3">
+                <a href="#">Probidad académica</a>
+              </li>
+              <li class="link 4">
+                <a href="#">Recursos</a>
+              </li>
+              </ul>
+            </nav>
+          </section>
+          <section class="footer__contacto"> 
+            <h3>Contacto</h3>
+            <a href="#">
+              <i class="bi bi-whatsapp"></i>
+              956925430
+            </a>
+          </section>
+         </div>
+       </div>
+    </footer>
+    <!-- scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./js/header.js" ></script>
+  </body>
+</html> 

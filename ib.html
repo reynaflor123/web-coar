@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bachillerato internacional</title>
+    <!-- swiper carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- icons boostrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <!-- fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- my styles -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <nav id="menu-navigation" class="navigation">
+          <img
+            class="logo"
+            src="./image/logo.png"
+            width="150"
+            height="50"
+            alt="logo del COAR"
+            title="logo del COAR"
+          />
+          <ul class="menu">
+            <li><a class="menu__link" href="./inicio.html">Inicio</a></li>
+            <li><a class="menu__link" href="./ib.html">IB</a></li>
+            <li>
+              <a class="menu__link" href="./probidadacademica.html"
+                >Probidad académica</a
+              >
+            </li>
+            <li><a class="menu__link" href="./Recursos.html">Recursos</a></li>
+          </ul>
+          <button id="button-navigation-open" class="menu-button">
+            <span class="menu-button__stick"></span>
+            <span class="menu-button__stick"></span>
+            <span class="menu-button__stick"></span>
+          </button>
+          <button id="button-navigation-close" class="menu-button">
+            <span class="menu-button__stick"></span>
+            <span class="menu-button__stick"></span>
+            <span class="menu-button__stick"></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <!-- header -->
+    <main class="page-ib">
+      <section class="hero">
+        <img
+          class="hero__image"
+          src="./image/banner-ib.png"
+          alt="banner principal"
+          title="banner principal de Bachillerato Internacional"
+        />
+        <h1 class="hero__title">BACHILLERATO INTERNACIONAL</h1>
+      </section>
+
+      <section class="section-asignaturas">
+        <div class="container">
+          <h1 class="section-asignaturas__title">Lista de asignaturas</h1>
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <a href="https://drive.google.com/drive/folders/1S6cNfeMiXNCpFiSQMy_X1L4aDi1soTgj">
+                  <article class="asignaturaCard">
+                    <img
+                      class="asignaturaCard__image"
+                      src="./image/asignatura1.png"
+                      alt="imagen de la asignatura literatura"
+                      title="imagen de la asignatura Literatura"
+                    />
+                    <h3 class="asignaturaCard__group">1er grupo</h3>
+                    <p class="asignaturaCard__name">
+                      Estudios de Lengua y Literatura
+                    </p>
+                  </article>
+                </a>
+              </div>
+              <div class="swiper-slide">
+               <a href="https://drive.google.com/drive/folders/15ix6pAyRG75EEHxil9VREjvx9O1_gPof">
+                <article class="asignaturaCard">
+                  <img
+                    class="asignaturaCard__image"
+                    src="./image/asignatura-02.png"
+                    alt="imagen de la asignatura Adquisión de lenguas "
+                    title="imagen de la asignatura Adquisión de lenguas"
+                  />
+                  <h3 class="asignaturaCard__group">2do grupo</h3>
+                  <p class="asignaturaCard__name">
+                    Adquisión de lenguas (Inglés)
+                  </p>
+                </article>
+               </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://drive.google.com/drive/folders/1cAXa_XbPmMsgf1Sr3hJXluhRCX5a-cbN">
+                  <article class="asignaturaCard">
+                    <img
+                      class="asignaturaCard__image"
+                      src="./image/asignatura-03.png"
+                      alt="imagen de la asignatura Individuos y  Sociedades"
+                      title="imagen de la asignatura Individuos y Sociedades"
+                    />
+                    <h3 class="asignaturaCard__group">3er grupo</h3>
+                    <p class="asignaturaCard__name">
+                      Individuos y Sociedades
+                    </p>
+                  </article>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://drive.google.com/drive/folders/1WSJGLsLDNu9eQBgzwFPHBTS-JJx40m6q">
+                  <article class="asignaturaCard">
+                    <img
+                      class="asignaturaCard__image"
+                      src="./image/asignatura-04.png"
+                      alt="imagen de la asignatura Ciencias(Biología, Química , Física y CDES)"
+                      title="imagen de la asignatura Ciencias(Biología, Química , Física y CDES)"
+                    />
+                    <h3 class="asignaturaCard__group">4to grupo</h3>
+                    <p class="asignaturaCard__name">
+                      Ciencias(Biología, Química , Física y CDES)
+                    </p>
+                  </article>
+                </a>
+              </div>
+              <div class="swiper-slide">
+               <a href="https://drive.google.com/drive/folders/1fhkkbNWFmwncL2ABR4zRHVvnAsucpgYC">
+                <article class="asignaturaCard">
+                  <img
+                    class="asignaturaCard__image"
+                    src="./image/asignatura-05.png"
+                    alt="imagen de la asignatura Matemáticas"
+                    title="imagen de la asignatura Matemáticas"
+                  />
+                  <h3 class="asignaturaCard__group">5to grupo</h3>
+                  <p class="asignaturaCard__name">
+                    Matemáticas
+                  </p>
+                </article>
+               </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://drive.google.com/drive/folders/1k6i363LojnjZhMXt2roMhcmET08JXB3k">
+                  <article class="asignaturaCard">
+                    <img
+                      class="asignaturaCard__image"
+                      src="./image/asignatura-06.png"
+                      alt="imagen de la asignatura Artes"
+                      title="imagen de la asignatura Artes"
+                    />
+                    <h3 class="asignaturaCard__group">6to grupo</h3>
+                    <p class="asignaturaCard__name">
+                      Artes
+                    </p>
+                  </article>
+                </a>
+              </div>
+              <div class="swiper-slide">
+               <a href="https://drive.google.com/drive/folders/10mak3Cpc9PqFzAZp83fLrmsbrw7oeRNz">
+                <article class="asignaturaCard">
+                  <img
+                    class="asignaturaCard__image"
+                    src="./image/asignatura-07.png"
+                    alt="imagen de la Monografía"
+                    title="imagen de la Monografía"
+                  />
+                  <h3 class="asignaturaCard__group"></h3>
+                  <p class="asignaturaCard__name">
+                    Monografía
+                  </p>
+                </article>
+               </a>
+              </div>
+              <div class="swiper-slide">
+               <a href="https://drive.google.com/drive/folders/1d7ZANRDeKu7e1J5QlyeDUx7KFr-QHLEh">
+                <article class="asignaturaCard">
+                  <img
+                    class="asignaturaCard__image"
+                    src="./image/asignatura-08.png"
+                    alt="imagen de Creatividad, Actividad y Servicio (CAS)"
+                    title="imagen de Creatividad, Actividad y Servicio (CAS)"
+                  />
+                  <h3 class="asignaturaCard__group"></h3>
+                  <p class="asignaturaCard__name">
+                    Creatividad, Actividad y Servicio (CAS)
+                  </p>
+                </article>
+               </a>
+              </div>
+              <div class="swiper-slide">
+               <a href="https://drive.google.com/drive/folders/1WJnYLh-0o_zaw83aT4rN3d8r4edbyVSH">
+                <article class="asignaturaCard">
+                  <img
+                    class="asignaturaCard__image"
+                    src="./image/asignatura-09.png"
+                    alt="imagen de Teoria del conocimiento(TDC)"
+                    title="imagen de Teoria del conocimiento(TDC)"
+                  />
+                  <h3 class="asignaturaCard__group"></h3>
+                  <p class="asignaturaCard__name">
+                    CTeoria del conocimiento(TDC)
+                  </p>
+                </article>
+               </a>
+              </div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+
+          <article class="list-asignaturas">
+            <a href="https://drive.google.com/drive/folders/1S6cNfeMiXNCpFiSQMy_X1L4aDi1soTgj">
+              <article class="asignaturaCard">
+                <img
+                  class="asignaturaCard__image"
+                  src="./image/asignatura1.png"
+                  alt="imagen de la asignatura Estudios de Lengua y Literatura"
+                  title="imagen de la asignatura Estudios de Lengua y literatura"
+                />
+                <h3 class="asignaturaCard__group">1er grupo</h3>
+                <p class="asignaturaCard__name">
+                  Estudios de Lengua y Literatura
+                </p>
+              </article>
+            </a>
+           <a href="https://drive.google.com/drive/folders/15ix6pAyRG75EEHxil9VREjvx9O1_gPof">
+            <article class="asignaturaCard">
+              <img
+                class="asignaturaCard__image"
+                src="./image/asignatura-02.png"
+                alt="imagen de Adquisición de lenguas(Inglés)"
+                title="imagen de Adquisición de lenguas(Inglés)"
+              />
+              <h3 class="asignaturaCard__group">2do grupo</h3>
+              <p class="asignaturaCard__name">
+                Adquisición de lenguas(Inglés)
+              </p>
+            </article>
+           </a>
+           <a href="https://drive.google.com/drive/folders/1cAXa_XbPmMsgf1Sr3hJXluhRCX5a-cbN">
+            <article class="asignaturaCard">
+              <img
+                class="asignaturaCard__image"
+                src="./image/asignatura-03.png"
+                alt="imagen de la asignatura Individuos y Sociedades"
+                title="imagen de la asignatura Individuos y Sociedades"
+              />
+              <h3 class="asignaturaCard__group">3er grupo</h3>
+              <p class="asignaturaCard__name">
+                Invididuos y Sociedades
+              </p>
+            </article>
+           </a>
+            <a href="https://drive.google.com/drive/folders/1WSJGLsLDNu9eQBgzwFPHBTS-JJx40m6q">
+              <article class="asignaturaCard">
+                <img
+                  class="asignaturaCard__image"
+                  src="./image/asignatura-04.png"
+                  alt="imagen de monografía"
+                  title="imagen de monografía"
+                />
+                <h3 class="asignaturaCard__group">4to grupo</h3>
+                <p class="asignaturaCard__name">
+                Ciencias(Biología, Química , Física y CDES)
+                </p>
+              </article>
+            </a>
+           <a href="https://drive.google.com/drive/folders/1fhkkbNWFmwncL2ABR4zRHVvnAsucpgYC">
+            <article class="asignaturaCard">
+              <img
+                class="asignaturaCard__image"
+                src="./image/asignatura-05.png"
+                alt="imagen de Matemáticas"
+                title="imagen de Matemáticas"
+              />
+              <h3 class="asignaturaCard__group">5to grupo</h3>
+              <p class="asignaturaCard__name">
+                Matemáticas
+              </p>
+            </article>
+           </a>
+           <a href="https://drive.google.com/drive/folders/1k6i363LojnjZhMXt2roMhcmET08JXB3k">
+            <article class="asignaturaCard">
+              <img
+                class="asignaturaCard__image"
+                src="./image/asignatura-06.png"
+                alt="imagen de Arte"
+                title="imagen de Arte"
+              />
+              <h3 class="asignaturaCard__group">6to grupo</h3>
+              <p class="asignaturaCard__name">
+              Artes
+              </p>
+            </article>
+           </a>
+            <a href="https://drive.google.com/drive/folders/1wxhv8NNQT4VDTVmNExP8gXL5hPDoRobm">
+              <article class="asignaturaCard">
+                <img
+                  class="asignaturaCard__image"
+                  src="./image/asignatura-07.png"
+                  alt="imagen de Monografía"
+                  title="imagen de Monografía"
+                />
+                <h3 class="asignaturaCard__group"></h3>
+                <p class="asignaturaCard__name">
+                  Monografía
+                </p>
+              </article>
+            </a>
+           <a href="https://drive.google.com/drive/folders/1d7ZANRDeKu7e1J5QlyeDUx7KFr-QHLEh">
+            <article class="asignaturaCard">
+              <img
+                class="asignaturaCard__image"
+                src="./image/asignatura-08.png"
+                alt="imagen de Creatividad, Actividad y Servicio"
+                title="imagen de Creatividad, Actividad y Servicio"
+              />
+              <h3 class="asignaturaCard__group"></h3>
+              <p class="asignaturaCard__name">
+              Creatividad, Actividad y Servicio
+              </p>
+            </article>
+           </a>
+            <a href="https://drive.google.com/drive/folders/1WJnYLh-0o_zaw83aT4rN3d8r4edbyVSH">
+              <article class="asignaturaCard">
+                <img
+                  class="asignaturaCard__image"
+                  src="./image/asignatura-09.png"
+                  alt="imagen de teoría del conocimiento"
+                  title="imagen de teoría del conocimiento"
+                />
+                <h3 class="asignaturaCard__group"></h3>
+                <p class="asignaturaCard__name">
+                  Teoría del conocimiento (TDC)
+                </p>
+              </article>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-trabajos-ib">
+        <div class="container">
+          <h2 class="section-trabajos-ib__title">Trabajos en el IB</h2>
+          <p class="section-trabajos-ib__description">
+            Para obtener el IB, es necesario que desarrolles distintos trabajos
+            internos y externos que permitirán que obtengas un puntaje para la
+            obtención del diploma
+          </p>
+
+          <div class="list-trabajoCard">
+            <div class="trabajoCard">
+              <article class="trabajoCard__content">
+                <h3 class="trabajoCard__title">Evaluación Internos</h3>
+                <p class="trabajoCard__description">
+                  Los trabajos internos dentro del IB se define como un trabajo individual que debe realizar cada alumno dentro de las 6 
+                  asignaturas bajo la supervisión del profesor.
+                </p>
+              </article>
+              <a class="button button-primary" href="https://drive.google.com/drive/folders/1xpdM6oVhv-mHEpj-mA7H6mnxJuuoV5T1">Lee más</a>
+            </div>
+            <div class="trabajoCard">
+              <article class="trabajoCard__content">
+                <h3 class="trabajoCard__title">Evaluación Externa</h3>
+                <p class="trabajoCard__description">
+                  Se  basa en los exámenes de las seis asignaturas, compuestos por prueba 1, prueba 2 y prueba 3, las cuales tienen altos niveles de objetividad y fiabilidad 
+                </p>
+              </article>
+              <a class="button button-primary" href="https://drive.google.com/drive/folders/121E3grfZaV_I6nWOkY2paoBAdb0lK25O">Lee más</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-convocatoria-ib">
+        <div class="container">
+          <h2 class="section-convocatoria-ib__title">Convocatoria</h2>
+          <div class="list-convocatoria">
+            <article class="convocatoriaCard">
+              <i class="bi bi-calendar2-week-fill | convocatoriaCard__icon"></i>
+              <h3 class="convocatoriaCard__title">Horario de supervisión</h3>
+              <p class="convocatoriaCard__description">
+                Aquí podrás subir el horario de atención con tu docente
+                supervisor, no olvides colocar el día y la hora de la
+                supervisón.
+              </p>
+              <a class="convocatoriaCard__link" href="https://docs.google.com/spreadsheets/d/1yTGM7WMJwJy4d6XfkrUFAYKENET9rx7jyLNpGah0Rsk/edit#gid=0">
+                Ir al archivo
+                <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+            </article>
+            <article class="convocatoriaCard">
+              <i class="bi bi-person-rolodex | convocatoriaCard__icon"></i>
+              <h3 class="convocatoriaCard__title">Dirección institucional </h3>
+              <p class="convocatoriaCard__description">
+                Conoce nuestro directorio institucional y comunícate con tu docente supervisor.
+              </p>
+              <a class="convocatoriaCard__link" href="https://docs.google.com/spreadsheets/d/1LFAMgMAy7X9oXJTSq_Bdf730QIuyHXDIlMJKjLzxBGk/edit#gid=0">
+                Ir al archivo
+                <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+            </article>
+            <article class="convocatoriaCard">
+              <i class="bi bi-journal-bookmark | convocatoriaCard__icon"></i>
+              <h3 class="convocatoriaCard__title">Insumos de supervisión</h3>
+              <p class="convocatoriaCard__description">
+                Aquí encontrarás la ficha de supervisión Monografía  que será completada después de cada asesoría entre supervisor y supervisado.
+              </p>
+              <a class="convocatoriaCard__link" href="https://drive.google.com/drive/folders/19hPHe9Tghl9dM6kG2c8D3aKm_XbuDJe6">
+                Ir al archivo
+                <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-reporte-trabajo">
+        <div class="container">
+          <div class="section-reporte-trabajo__content">
+            <article>
+              <h2>Reporte de trabajos</h2>
+              <p>
+                Desde el área de monografía es sumamente necesario conocer lo
+                que realizas en tu trabajo de monografía, por ello, si cuentan
+                con tu avance, adjuntalo por este medio y de esa manera te
+                ayudaremos en lo que necesitas
+              </p>
+              <a href="https://drive.google.com/drive/folders/1GJloZaS3NANZLoCCscP8LO0vx6Iq-Sx9" class="button button-primary button-desktop"
+                >Adjunta tu trabajo</a
+              >
+            </article>
+            <figure>
+              <img src="./image/reporte.png" alt="" />
+              <div class="text-center">
+                <a href="https://drive.google.com/drive/folders/1GJloZaS3NANZLoCCscP8LO0vx6Iq-Sx9" class="button button-primary button-mobile"
+                  >Adjunta tu trabajo</a
+                >
+              </div>
+            </figure>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <section class="footer__logo">
+            <img
+              src="./image/coar.png" width="79/79"
+              alt=" Logo del coar"
+              title="Logo del coar"
+            />
+            <img
+              src="./image/logo.png" width="154/79"
+              alt="segundo Logo del coar"
+              title="segundo Logo del coar"
+            />
+          </section>
+          <section class="footer__links">
+            <h3>Links</h3>
+            <nav>
+              <ul>
+                <li class="link 1">
+                  <a href="./inicio.html">Inicio</a>
+                </li>
+                <li class="link 2">
+                  <a href="./ib.html">IB</a>
+                </li>
+                <li class="link 3">
+                  <a href="./probidadacademica.html">Probidad académica</a>
+                </li>
+                <li class="link 4">
+                  <a href="./Recursos.html">Recursos</a>
+                </li>
+              </ul>
+            </nav>
+          </section>
+          <section class="footer__contacto">
+            <h3>Contacto</h3>
+            <a href="https://chat.whatsapp.com/HFm4XbADK4T1lawvWQTlBH">
+              <i class="bi bi-whatsapp"></i>
+              938200587
+            </a>
+          </section>
+        </div>
+      </div>
+    </footer>
+    <!-- scripts aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- script swiper carousel -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      AOS.init();
+
+      const swiper = new Swiper(".section-asignaturas .swiper", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        spaceBetween: 10,
+      });
+    </script>
+    <script src="./js/header.js"></script>
+  </body>
+</html>
